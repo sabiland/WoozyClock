@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sabiland - WoozyClock</title>
+  <meta name="description" content="WoozyClock">
+  <meta name="author" content="Sabiland">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="sabiland_woozy_clock.js"></script>
+</head>
+<body>
+  <div style="margin-top: 10px; text-align: center;">
+    <canvas id="m_cnvWoozyClockFullScreen"></canvas>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+
+    jQuery(document).ready(function () {
+        jQuery('#m_cnvWoozyClockFullScreen').woozyclock({ width: 900, height: 400, ticklength: 33, maindtype: 3 });
+        return;
+    });
+
+      //]]>
+</script>
+</body>
+</html>
