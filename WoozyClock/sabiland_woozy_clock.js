@@ -10,8 +10,6 @@
 */
 (function (jQuery) {
 
-    // jQuery.fn.showAlert = function() {
-
     jQuery.fn.extend({
 
         woozyclock: function (options) {
